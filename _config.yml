@@ -1,0 +1,61 @@
+
+# SEO settings
+title: "Vie"
+title2: "YCZ" # default: ""
+description: ""
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url: http://yangchenzhong.github.io/blog # site url
+baseurl: "/blog" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+lang:"zh_CN.UTF-8"
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/yangchenzhong/blog
+disqus_shortname: "yangchenzhong"
+twitter_username: "yangchenzhong"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "YCZ"
+  job      : "R&D Software Engineer"
+  bio      : "1+1=3 is always TRUE in my world, a balance between binary and reality."
+  thumb    : /images/author.jpg
+  email    : yangchenzhong@gmail.com
+  url      : http://about.yangchenzhong.com
+  github   : http://github.com/yangchenzhong
+  twitter  : http://twitter.com/unlockyang
+  facebook : https://www.facebook.com/yangchenzhong
+  linkedin : http://linkedin.com/in/yangchenzhong
+
+# social settings
+og_locale: "zh_CN"
+twitter_card: "summary_large_image"
+twitter_site: "@yangchenzhong"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
