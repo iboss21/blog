@@ -4,8 +4,8 @@ title: "Vie"
 title2: "YCZ" # default: ""
 description: ""
 keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url: http://yangchenzhong.github.io/blog # site url
-baseurl: "/blog" # apply repo name if use it under gh-pages branch
+url: http://blog.yangchenzhong.cn # site url
+baseurl: "/" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 language: zh-CN
