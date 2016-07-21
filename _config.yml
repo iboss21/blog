@@ -8,6 +8,8 @@ url: http://yangchenzhong.github.io/blog # site url
 baseurl: "/blog" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
+language: zh-CN
+
 google_analytics: UA-XXXXX-XX
 repo: http://github.com/yangchenzhong/blog
 disqus_shortname: "yangchenzhong"
