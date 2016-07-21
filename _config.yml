@@ -6,7 +6,7 @@ description: ""
 keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url: https://blog.yangchenzhong.cn # site url
 enforce_ssl: blog.yangchenzhong.cn
-baseurl: "/" # apply repo name if use it under gh-pages branch
+# baseurl: "/" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 language: zh-CN
