@@ -51,6 +51,10 @@ twitter_site: "@yangchenzhong"
 languages:          ['en', 'cn']
 language_default:   'cn'
 
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+
 gems:
   - bourbon
   - jekyll-paginate
