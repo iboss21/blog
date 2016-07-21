@@ -8,18 +8,6 @@ url: http://yangchenzhong.github.io/blog # site url
 baseurl: "/blog" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
-# 多语言配置
-gems:           ['jekyll-multiple-languages']
-# 如果需要分页, 请加入 jekyll-paginate 并放于 jekyll-multiple-languages 之前
-# gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
-
-# 所有的语言
-languages:          ['en', 'cn']
-
-# 默认语言
-# 如果没有配置，languages 中的第一项就是默认语言
-language_default:   'cn'
-
 google_analytics: UA-XXXXX-XX
 repo: http://github.com/yangchenzhong/blog
 disqus_shortname: "yangchenzhong"
@@ -57,9 +45,14 @@ og_locale: "zh_CN"
 twitter_card: "summary_large_image"
 twitter_site: "@yangchenzhong"
 
+# mul languages
+languages:          ['en', 'cn']
+language_default:   'cn'
+
 gems:
   - bourbon
   - jekyll-paginate
+  - jekyll-multiple-languages
 
 # navbar pages
 navbar:
@@ -69,3 +62,5 @@ navbar:
     title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+
+
