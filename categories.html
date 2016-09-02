@@ -10,6 +10,9 @@ title: Categories
     {% endfor %}
   </div>
   <hr/>
+</div>
+<section class="post-list">
+
   <div class="container">
 	{% for tag in site.categories %}
 		<h2 class="category-title" id="{{ tag[0] | slugify }}" >{{ tag[0] }}</h2>		
@@ -22,7 +25,8 @@ title: Categories
 	{% endfor %}
   </div>
   
-</div>
+</section>
+
 
 
 
