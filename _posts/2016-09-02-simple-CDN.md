@@ -5,6 +5,7 @@ comments: true
 description: "CDN"
 keywords: "CDN"
 author: "Vie && Internet"
+category: "CDN"
 ---
 
 [CDN](/CDN)
