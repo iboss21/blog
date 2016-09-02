@@ -40,4 +40,4 @@ CDN是一种组合技术，包括源站、缓存服务器、智能DNS、客户�
 
 ## 什么事简单CDN
 
-![Minion](images/CDN7-2.png.png)
+![Minion](images/CDN7-2.png)
