@@ -4,6 +4,7 @@ title: "Here is How to Download/Use This Theme"
 comments: true
 description: "Here is How to Download/Use This Theme"
 keywords: "dummy content"
+category: "Jekyll"
 ---
 
 ### Use this theme as you main site

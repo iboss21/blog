@@ -4,6 +4,7 @@ title: "If you have a Guest post.."
 comments: true
 description: "If you have a Guest post.."
 keywords: "dummy content"
+category: "Jekyll"
 author: GuestName
 ---
 
