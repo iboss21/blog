@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: "Lighttpd Wiki"
 comments: true
 description: "Lighttpd"
