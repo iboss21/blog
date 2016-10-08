@@ -13,3 +13,4 @@ Just another minimalist Jekyll theme that focuses on technical writing. Designed
 ### License
 
 [MIT](LICENSE.md)
+
