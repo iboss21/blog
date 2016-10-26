@@ -10,7 +10,7 @@ enforce_ssl: blog.yangchenzhong.cn
 
 language: zh-CN
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-75139334-2
 repo: http://github.com/yangchenzhong/blog
 disqus_shortname: "yangchenzhong"
 twitter_username: "unlockyang"
